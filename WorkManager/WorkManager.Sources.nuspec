@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>WorkManager.Sources</id>
+    <version>1.0.0.0</version>
+    <description>
+		Easier multi-threaded/async workflows utilizing the concept of a shared resource across workers
+    </description>
+    <authors>Robert Bissonnette</authors>
+    <language>en-US</language>
+    <projectUrl>https://github.com/robertbissonnette/WorkManager</projectUrl>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+  </metadata>
+  <files>
+	<file src="*.cs" target="Content\WorkManager" />
+	<file src="*.cs" target="shared" />
+  </files>
+</package>
